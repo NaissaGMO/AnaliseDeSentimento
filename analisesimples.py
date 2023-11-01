@@ -7,7 +7,7 @@ import random
 nltk.download('stopwords')
 
 # Carregar o arquivo com as frases
-with open('kindle.txt', encoding='utf-8') as file:
+with open('comentarios.txt', encoding='utf-8') as file:
     content = file.readlines()
 
 # Remover quebras de linha
